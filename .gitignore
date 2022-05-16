@@ -1,5 +1,5 @@
 node_modules/
-twilio.env
+.env
 testing_images/
 
 
