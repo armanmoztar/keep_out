@@ -6,7 +6,7 @@ const client = require('twilio')(accountSid, authToken);
 client.messages.create({
     to: '+17789536129',
     from: '+18508483621',
-    body: "Test"
+    body: "Please type 'Yes' to confirm your phone number"
 })
 // logout message ID when message is sent
 .then(message => console.log(message.sid));
