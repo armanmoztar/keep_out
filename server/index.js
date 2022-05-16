@@ -10,7 +10,7 @@ VIDEO_SOURCE = "test1.mp4";
 
 const wCap = new cv.VideoCapture(0);
 
-// get from root url and send back a file
+// get root url and send back a file
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'))
 });
