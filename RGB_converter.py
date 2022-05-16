@@ -1,3 +1,4 @@
+# referenced from https://towardsdatascience.com/image-analysis-for-beginners-creating-a-motion-detector-with-opencv-4ca6faba4b42
 def motion_detector():
   
   frame_count = 0
